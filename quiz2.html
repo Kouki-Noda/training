@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="quiz.js"defer></script>
+    <title>問題2</title>
+</head>
+
+<body>
+    <div id="main">
+        <h1>役覚えクイズ</h1>
+        <h2>問題2</h2>
+        <p>
+            画像の役は？<br>
+            <img src="役画像/2翻/ダブルリーチ.png"><br>
+            ※一巡目の捨牌でリーチをかける
+        </p>
+        <h3>選択肢</h3>
+        <ol class="answers" data-id = "quiz2">
+            <li data-answer="A">リーチ</li>
+            <li data-answer="B">トイトイホー</li>
+            <li data-answer="C">ダブルリーチ</li>
+            <li data-answer="D">チャンカン</li>
+        </ol>
+        <div id="section-correct-answer">
+            <h2>答え</h2>
+            <p>
+                <span id="correct-answer">ダブルリーチ（2翻）</span><br>
+                一巡目の捨牌でリーチをかけると成立。<br>
+                ※リーチをすると、手牌を変えることができなくなる<br>
+                ※それまでに鳴きがあった場合は成立しない。
+            </p>
+        </div>
+        <a href="index.html">戻る</a>
+    </div>
+</body>
+</html>

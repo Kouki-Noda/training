@@ -1,0 +1,54 @@
+body {
+    font-family: 'Yuji Syuku', serif;
+
+}
+
+
+ul {
+    font-family: 'Yuji Syuku', serif;
+    border-style: double;
+
+}
+
+ul li {
+    font-family: 'Yuji Syuku', serif; 
+    padding: 1em ;
+    list-style: none;
+}
+
+ol li {
+    font-family: 'Yuji Syuku', serif; 
+    padding: 1em;
+    list-style: none;
+}
+
+p {
+    border-style: double;
+}
+
+#main{
+    text-align: center;
+}
+
+#correct-answer{
+    
+    font-weight: bold;
+}
+
+#section-correct-answer {
+    display: none;
+}
+
+.question li:hover{
+    border: 0.1em solid #1e366a;
+    background-color: #e5ecfc;
+    padding: 0.9em;
+    cursor: pointer;
+}
+
+.answers li:hover{
+    border: 0.1em solid #1e366a;
+    background-color: #e5ecfc;
+    padding: 0.9em;
+    cursor: pointer;
+}
